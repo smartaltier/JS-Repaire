@@ -21,7 +21,7 @@
 		* @param {Map} user options
 		*/
 		init: function(options) {
-			var form = this;
+			var form = this; 
 			if (!form.data('jqv') || form.data('jqv') == null ) {
 				options = methods._saveOptions(form, options);
 				// bind all formError elements to close on click
